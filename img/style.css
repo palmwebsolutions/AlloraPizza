@@ -1,0 +1,579 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+html {
+    font-family: georgia, sans-serif;
+}
+h2{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #A09E6D;
+	font-family: georgia;
+	font-weight: 200;
+}
+
+p{
+	text-align: justify;
+	padding: 0 0.5em 0 0.5em;
+	font-size: 1em;
+	color: #ffffff;
+	color: #728e61;
+	color: #3f3f3f;
+	color: rgba(63, 63, 63, 0.57);
+}
+
+
+h3{
+	padding: 0.5em 0 0 0.5em;
+	font-size: 1.2em;
+	color: #144c1e;
+	color: rgba(20, 76, 30, 0.56);
+	color: #A09E6D;
+}
+
+
+
+/*            HEADER            */
+.header{
+	width: 100%;
+	min-height: 20em;
+	max-height: 30em;
+	background-image: url("images/header1.jpg");
+	background-position: center right; 
+	background-size: cover;
+	border-top: 14px solid #A09E6D;
+	border-bottom: 14px solid #A09E6D;
+}
+
+.in-header{
+	width: 100%;
+	min-height: 10em;
+	background-color:rgba(255,255,255,0.7);
+	margin-top: 5%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+.in-header img{
+	width: 90%;
+	max-width: 26em;
+}
+
+/*            END OF HEADER            */
+
+.before-nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.art , .art-sm{
+    float: left;
+    padding: 15px;
+	width: 100%;
+	/* border: solid 1px red; */
+}
+
+.about, .nav{
+	width: 100%;
+	
+}
+.about{
+	margin-top: 40px;
+}
+.grey{
+	background-color: #f9f9dc;
+}
+.phone, .address{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: courier;
+}
+.phone{
+	font-size: 2em;
+	font-weight: 700;
+}
+.address{
+	font-size: 1em;
+	font-weight: 600;
+}
+
+/* nav menu */
+
+.nav{
+	border-bottom: 4px solid #A09E6D;
+	text-align: center;
+
+}
+ul{
+	padding-left:0;
+	margin-left: 0;
+}
+li{
+	display: inline;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+a{
+text-decoration: none;
+color: #A09E6D;
+}
+a:hover{
+	color: #728e61;
+	text-shadow: 2px 2px #e7e7e7;
+}
+.active-li{
+	background-color: #A09E6D;
+}
+.active-li a{
+	color: white;
+}
+.active-li a{
+	color: white;
+	text-shadow: 0px 0px #ffffff;
+}
+
+/* end of nav menu */
+
+
+
+/*    FOOTER    */
+.footer {
+    background-color: #A09E6D; 
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.footer p{
+	color: #ffffff;
+}
+.footer li{
+	display: block;
+	text-align: left;
+	padding-bottom: 3px;
+	font-size: 1em;
+}
+.footer a{
+	color: white;
+}
+.footer ul{
+	list-style-type: circle;
+	margin: 0;
+}
+.footer-art{
+	width: 50%;
+}
+.footer a:hover{
+	text-shadow: 1px 1px #e7e7e7;
+}
+
+/*  END  FOOTER    */
+
+
+
+.art  img{
+	width: 100%;
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 1em;
+}
+
+.art-sm  img{
+	width: 50%;
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 1em;
+}
+
+
+.art div{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+.food, .welcome, .collapse-menu{
+	max-width: 70em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.welcome{
+	padding:  1em 1em 2em 1em;
+	text-align: center;
+}
+
+
+
+
+
+	
+/*                                 begin menu table                       */
+
+table{
+   border-collapse: collapse;
+}
+
+th,td{
+  padding: 2px;
+  border: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+th{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+td span{
+	color: red;
+}
+
+.itemDescr{
+	color: #737373;
+	font-size: 0.8em;
+}
+.mainDescr{
+	color: #807d4a;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.itemName{
+	text-transform: uppercase;
+	color: #807d4a;
+	font-size: 0.8em;
+}
+.itemPrice{ 
+	color: #737373;
+	font-size: 0.8em;
+}
+.submenu{
+	color: #A09E6D; 
+	font-size: 1.1em;
+	border-bottom: solid 1px grey;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.collapse-menu-header{
+	width: 100%;
+	border-bottom: solid 2px #A09E6D;
+	background-color: #fbfbfb;
+}
+.collapse-menu-header h3{
+	padding-left: 1.5em;
+	font-size: 1em;
+	color: #A09E6D;
+}
+
+.collapse-menu-item{
+	text-align: center;
+	display: none;
+}
+.collapse-menu{
+	max-width: 60em;
+}
+.collapse-menu-item img{
+	margin-top: 20px;
+}
+.menu::after{
+	content: "";
+    height: 10px;
+    display: table;
+}
+
+
+
+/*                              end menu table*                   */
+
+
+/*                              gallery                   */
+
+.gallery{
+	text-align: center;	
+}
+.gallery div{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallery img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.button{
+	width: 100px;
+	background-color: #A09E6D;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #ffffff;
+	cursor:pointer;
+	
+}
+.gallery div>div{
+	display: inline;
+}
+/*                              end gallery                   */
+
+
+/*                              coupon                   */
+.coupon{
+	max-width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.coupon div{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	height: 100%;
+}
+.coupon div>div{
+	border: dotted 1px grey;
+	width: 100%;
+}
+.coupon p{
+	font-size: 0.8em;
+}
+.coupon h3{
+	font-size: 1em;
+}
+.coupon span{
+	float: right;
+	font-size: 0.8em;
+}
+.print-coupon{
+	display: none;
+}
+.coupon img{
+	float: right;
+	margin-top: -6px;
+    margin-right: -8px;
+	width: 80px;
+}
+/*                              end coupon                   */
+
+
+
+
+/****************************************       ****************************************************/
+/****************************************DESKTOP****************************************************/
+/****************************************       ****************************************************/
+
+
+
+@media only screen and (min-width: 400px) {
+
+h3{
+	font-size: 1.3em; 
+}
+
+/*               HEADER              */
+
+
+.in-header img{
+	max-width: 26em;
+}
+.in-header{
+	min-height: 13em;
+}
+/*            END OF HEADER            */
+
+
+.art, .art-sm {
+	width: 33.33%;
+}
+.art-sm {
+	text-align: center;
+}
+.art img, .art-sm img{
+	width:100%;
+	margin-bottom: 1em;
+	padding-left: 0;
+	padding-right: 0;
+}
+.art-sm img{
+	max-width: 180px;
+}
+	
+.art div{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.phone{
+	font-size: 4em;
+	font-weight: 700;
+}
+.address{
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.footer-art{
+	width: 33.33%;
+}
+
+	
+/*  nav menu  */
+li{
+	display: inline;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+ul{
+	padding-left:0;
+	margin-left: 0;
+}
+
+/*  end of nav menu  */	
+
+
+	
+/*   menu table*/
+
+table{
+   margin-top: 20px;
+}
+
+.itemName{
+	font-size: 1em;
+}
+
+.itemDescr{
+	color: #737373;
+	font-size: 1em;
+}
+.submenu{
+	font-size: 1.5em;
+}
+.itemPrice{ 
+	font-size: 1em;
+}
+.collapse-menu-header{
+	width: 100%;
+	border-bottom: solid 2px #A09E6D;
+	background-color: #fbfbfb;
+}	
+.collapse-menu-header h3{
+	padding-left: 5em;
+	font-size: 1.3em;
+}
+.menu::after{
+	content: "";
+    height: 100px;
+    display: table;
+}
+/* end menu table*/
+
+/*                              gallery                     */
+
+.gallery{
+	text-align: center;	
+}
+.gallery div{
+	width: 35%;
+	min-width: 20em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*                              coupon                   */
+.coupon, .print-coupon{
+	max-width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.coupon div{
+	width: 50%;
+	float: left;
+	padding: 10px;
+	height: 100%;
+}
+.coupon div>div{
+	border: dotted 1px grey;
+	width: 100%;
+}
+.coupon p{
+	font-size: 0.9em;
+}
+.coupon h3{
+	font-size: 1.3em;
+	
+}
+.coupon img{
+	float: right;
+	margin-top: -6px;
+    margin-right: -8px;
+	width: 100px;
+}
+.print-coupon{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*                              end coupon                   */
+
+
+}
+
+
+/******************************************     ****************************************************/
+/******************************************PRINT****************************************************/
+/******************************************     ****************************************************/
+
+@media print{
+	.header, .nav, .footer{
+		display: none;
+	}
+	.coupon{
+	max-width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.coupon div{
+	width: 50%;
+	float: left;
+	padding: 10px;
+	height: 100%;
+}
+.coupon div>div{
+	border: dotted 1px grey;
+	width: 100%;
+	background-image: url("images/allora_logo_sm.png");
+	background-position: right top; 
+	background-repeat: no-repeat;
+}
+.coupon p{
+	font-size: 0.9em;
+}
+.coupon h3{
+	font-size: 1.2em;
+	color: #000000;
+}
+.print-coupon{
+	display: none;
+}
+}
+
